@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Política de Privacidad — AcoTicket</title>
+  <title>Política de Privacidad — AcoTicket &amp; Project Dragonfly</title>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
@@ -62,7 +62,7 @@
 
 <header>
   <h1>Política de Privacidad</h1>
-  <p>AcoTicket — Sistema de gestión de tickets y soporte técnico</p>
+  <p>AcoTicket &amp; Project Dragonfly — Herramientas de soporte técnico e inventario</p>
 </header>
 
 <main>
@@ -153,8 +153,60 @@
 
 </main>
 
+<div style="max-width:780px;margin:40px auto 0;background:#fff;border-radius:12px;padding:40px 48px;box-shadow:0 2px 8px rgba(0,0,0,.08);">
+  <h1 style="font-size:1.3rem;font-weight:700;color:#1565C0;margin-bottom:8px;">Project Dragonfly</h1>
+  <p style="font-size:0.95rem;color:#616161;margin-bottom:24px;">Aplicación companion para registro automático de inventario de dispositivos móviles</p>
+
+  <span class="badge">Última actualización: marzo 2026</span>
+
+  <h2>1. Información general</h2>
+  <p>
+    Project Dragonfly es una aplicación de uso interno empresarial que recopila información técnica
+    del dispositivo Android donde se instala y la sincroniza con el sistema de inventario AcoTicket
+    de la organización correspondiente.
+  </p>
+
+  <h2>2. Datos recopilados</h2>
+  <p>La aplicación recopila los siguientes datos del dispositivo:</p>
+  <ul>
+    <li><strong>Información del dispositivo:</strong> marca, modelo, versión de Android, SDK, ID de Android, número de serie.</li>
+    <li><strong>Almacenamiento:</strong> capacidad total y espacio disponible del almacenamiento interno.</li>
+    <li><strong>Batería:</strong> nivel de carga en el momento del registro.</li>
+    <li><strong>Datos del responsable:</strong> nombre del empleado asignado al dispositivo (ingresado manualmente).</li>
+    <li><strong>Fotografía:</strong> foto opcional del dispositivo tomada en el momento del registro.</li>
+    <li><strong>SIM y operadora:</strong> número de teléfono SIM y nombre de la operadora (si se ingresan).</li>
+  </ul>
+
+  <h2>3. Uso de los datos</h2>
+  <p>Los datos se usan exclusivamente para:</p>
+  <ul>
+    <li>Registrar el dispositivo en el inventario de equipos de la organización.</li>
+    <li>Facilitar el seguimiento y gestión del parque de dispositivos móviles.</li>
+  </ul>
+  <p><strong>No se recopilan datos para publicidad, analítica ni ningún fin comercial.</strong></p>
+
+  <h2>4. Almacenamiento y seguridad</h2>
+  <p>
+    Los datos se almacenan en Google Firebase Firestore, dentro del espacio privado de la organización
+    (namespaceado por tenant). Solo los administradores de la organización tienen acceso a esta información.
+  </p>
+
+  <h2>5. Permisos de la aplicación</h2>
+  <ul>
+    <li><strong>CAMERA</strong> — para escanear el código QR de vinculación con la organización y fotografiar el dispositivo.</li>
+    <li><strong>INTERNET</strong> — para sincronizar los datos del dispositivo con Firebase Firestore.</li>
+  </ul>
+  <p>Estos permisos se solicitan en el momento de uso y pueden revocarse desde la configuración del dispositivo.</p>
+
+  <h2>6. Contacto</h2>
+  <p>
+    Para consultas sobre privacidad, escribir a:
+    <strong>acoticket@gmail.com</strong>
+  </p>
+</div>
+
 <footer>
-  &copy; 2026 ACO &mdash; AcoTicket. Todos los derechos reservados.
+  &copy; 2026 ACO &mdash; AcoTicket &amp; Project Dragonfly. Todos los derechos reservados.
 </footer>
 
 </body>
